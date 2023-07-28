@@ -5,7 +5,6 @@ brotlipy==0.7.0
 certifi==2023.7.22
 constantly==15.1.0
 cssselect==1.1.0
-daal4py==2023.1.1
 datashape==0.5.2
 dython==0.7.4
 et-xmlfile==1.1.0
@@ -36,7 +35,6 @@ PyQt5-sip==12.11.0
 python-lsp-jsonrpc==1.0.0
 queuelib==1.5.0
 requests==2.31.0
-scikit-learn-intelex==2023.2.0
 scikit-optimize==0.9.0
 scikit-plot==0.3.7
 scipy==1.10.1

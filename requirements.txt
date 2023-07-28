@@ -6,7 +6,7 @@ certifi==2023.7.22
 constantly==15.1.0
 cssselect==1.1.0
 daal4py==2023.1.1
-datashape==0.5.4
+datashape==0.5.2
 dython==0.7.4
 et-xmlfile==1.1.0
 fonttools==4.25.0

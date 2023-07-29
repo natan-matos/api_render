@@ -29,6 +29,7 @@ class Rossmann( object ):
 
         # Convert date type
         df1['date'] = pd.to_datetime( df1['date'] )
+        df1['store'] = df1['store'].astype(np.int64)
 
         # FILL OUT NAs
           #competition_distance       

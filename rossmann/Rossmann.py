@@ -17,7 +17,7 @@ class Rossmann( object ):
     def data_cleaning( self, df1):
 
         # Rename Columns
-        cols_old = ['Store', 'DayOfWeek', 'Date', 'Open', 'Promo',
+        cols_old = ['Id', 'Store', 'DayOfWeek', 'Date', 'Open', 'Promo',
             'StateHoliday', 'SchoolHoliday', 'StoreType', 'Assortment',
             'CompetitionDistance', 'CompetitionOpenSinceMonth',
             'CompetitionOpenSinceYear', 'Promo2', 'Promo2SinceWeek',
@@ -29,7 +29,7 @@ class Rossmann( object ):
 
         # Convert date type
         df1['date'] = pd.to_datetime( df1['date'] )
-        df1['store'] = df1['store'].astype(np.int64)
+        #df1['store'] = df1['store'].astype(np.int64)
 
         # FILL OUT NAs
           #competition_distance       

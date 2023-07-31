@@ -17,7 +17,7 @@ class Rossmann( object ):
     def data_cleaning( self, df1):
 
         # Rename Columns
-        cols_old = ['Id', 'Store', 'DayOfWeek', 'Date', 'Open', 'Promo',
+        cols_old = ['Store', 'DayOfWeek', 'Date', 'Open', 'Promo',
             'StateHoliday', 'SchoolHoliday', 'StoreType', 'Assortment',
             'CompetitionDistance', 'CompetitionOpenSinceMonth',
             'CompetitionOpenSinceYear', 'Promo2', 'Promo2SinceWeek',

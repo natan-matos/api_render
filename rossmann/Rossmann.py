@@ -104,6 +104,9 @@ class Rossmann( object ):
 
         ## Feature Filter
         
+        # Filter rows
+        df2 = df2[df2['open'] != 0]
+        
         # Filter columns
         drop_cols = [ 'open', 'promo_interval', 'month_map']
         df2 = df2.drop(drop_cols, axis=1)
